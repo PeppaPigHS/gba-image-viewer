@@ -1,0 +1,14 @@
+appId: com.peppapighs.gbaimageviewer
+productName: GBA Image Viewer
+copyright: Copyright © 2019 PeppaPigHS
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
+win:
+  target: [portable]
